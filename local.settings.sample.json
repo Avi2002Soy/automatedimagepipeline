@@ -1,0 +1,23 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+
+    "STORAGE_CONNECTION": "<storage-account-connection-string>",
+    "RAW_CONTAINER": "raw-images",
+    "PROCESSED_CONTAINER": "processed-images",
+
+    "VISION_ENDPOINT": "https://<your-vision-resource>.cognitiveservices.azure.com/",
+    "VISION_KEY": "<vision-key>",
+
+    "COSMOS_ENDPOINT": "https://<your-cosmos-account>.documents.azure.com:443/",
+    "COSMOS_KEY": "<cosmos-key>",
+    "COSMOS_DATABASE": "imagedb",
+    "COSMOS_CONTAINER": "metadata",
+
+    "MAX_UPLOAD_MB": "20",
+    "JPEG_QUALITY": "85",
+    "MIN_TAG_CONFIDENCE": "0.6"
+  }
+}
